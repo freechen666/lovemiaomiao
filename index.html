@@ -244,9 +244,10 @@ window.FOOD_CATEGORIES = [
     $("#love-title").textContent=chosenLetter.letter.title;$("#love-letter-body").replaceChildren();
     chosenLetter.letter.lines.forEach((line,index)=>{const p=document.createElement("p");if(index===2)p.className="love-promise";line.split("\n").forEach((text,i)=>{if(i)p.append(document.createElement("br"));p.append(document.createTextNode(text));});$("#love-letter-body").append(p);});
     $("#love-meal").textContent=`今天的美味：${selected.name} ${selected.emoji}`;
-    openDialog($("#love-dialog"));celebrate();
+    openDialog($("#love-dialog"));
   });
   $("#love-received").addEventListener("click",()=>{$("#love-dialog").close();});
+  $("#love-dialog").addEventListener("close",celebrate);
   function renderHistory() {
     const list=$("#history-list");list.replaceChildren();$("#clear-history").hidden=!history.length;
     if(!history.length){const p=document.createElement("p");p.className="empty-history";p.textContent="第一份美味，等你转出来 ✧";list.append(p);return;}
