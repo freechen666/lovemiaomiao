@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#fff7eb">
+  <meta name="description" content="苗苗，今天吃什么？陈自友给陶苗苗的专属美食转盘。120道好吃的，转一下，把纠结交给小幸运。">
+  <meta property="og:title" content="苗苗今天吃什么 · 自友的投喂计划">
+  <meta property="og:description" content="120道好吃的，转一下，把纠结交给小幸运。写给陶苗苗，来自陈自友。">
+  <title>苗苗今天吃什么 · 自友的投喂计划</title>
+  <style>
+:root{--paper:#fff8ed;--ink:#533c32;--muted:#a38b7c;--coral:#ed7a64;--coral-dark:#cc5b48;--line:#eddfce;--serif:Georgia,"Songti SC","STSong","SimSun",serif;--sans:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+*{box-sizing:border-box}html{height:100%;overflow:hidden}body{height:100vh;height:100svh;overflow:hidden;margin:0;color:var(--ink);background:var(--paper);font-family:var(--sans);-webkit-tap-highlight-color:transparent;background-image:radial-gradient(#cfae8830 .65px,transparent .65px);background-size:7px 7px}button,input,textarea{font:inherit}button,a,input,textarea{touch-action:manipulation}button{cursor:pointer;color:inherit;border:0}button:disabled{cursor:wait}a{color:inherit;text-decoration:none}[hidden]{display:none!important}button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #a6b79b;outline-offset:4px}h1:focus,h2:focus{outline:none}
+.page-shell{height:100%;max-width:1040px;padding:0 32px;margin:auto;display:flex;flex-direction:column}.site-header{height:82px;flex-shrink:0;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:10px;font-size:17px;font-weight:700;letter-spacing:1.5px}.brand-mark{display:grid;place-items:center;width:42px;height:42px;background:#fce6d7;border-radius:13px;transform:rotate(-7deg)}.brand-mark svg{width:35px;fill:none;stroke:#c15c45;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.brand-en{display:block;font-size:8px;font-weight:400;letter-spacing:1.6px;color:var(--muted);margin-top:5px}.text-button{background:transparent;color:#927362;display:flex;align-items:center;gap:8px;font-size:12px}.text-button>span{font-size:22px}
+.screen-stage{flex:1;min-height:0;position:relative;isolation:isolate}.screen{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px 0;opacity:0;visibility:hidden;transform:translateX(28px) scale(.98);transition:opacity .45s ease,transform .6s cubic-bezier(.2,.8,.2,1),visibility .6s;pointer-events:none;gap:24px}.screen.active{opacity:1;visibility:visible;transform:translateX(0) scale(1);pointer-events:auto}.screen.past{transform:translateX(-28px) scale(.98)}.screen-back{position:absolute;left:0;top:25px;width:37px;height:37px;border-radius:50%;border:1px solid #e7d8c5;background:#fffaf3;font-size:19px;color:#a3856c}.screen-top{text-align:center}.section-kicker{font-size:9px;letter-spacing:2px;color:#b19885}.screen-top h2{font-family:var(--serif);font-size:30px;font-weight:600;letter-spacing:1px;line-height:1.4;margin:12px 0 8px}.screen-top p{font-size:12px;color:#aa907b;line-height:1.8;margin:0}.screen-action{width:100%;max-width:360px}.screen-action .primary-button{font-size:14px}.menu-tools{display:flex;align-items:center;justify-content:space-between;font-size:10px;color:#b09a87;margin-top:16px;gap:9px}.inline-link{font-size:11px;color:#a77359;background:transparent;border-bottom:1px solid #cfaa903d;padding:2px 0;line-height:1.6}
+.welcome-inner{width:100%;max-width:760px;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:20px 30px}.welcome-text{padding-left:20px}.love-label{font-size:11px;color:#af7764;letter-spacing:1.4px}h1{font-family:var(--serif);font-size:51px;font-weight:600;letter-spacing:2px;line-height:1.35;margin:18px 0}.underline{position:relative;z-index:0}.underline:after{content:"";position:absolute;left:-3px;right:-2px;bottom:1px;height:15px;border-radius:45% 35% 30% 25%;background:#f5cbb2;transform:rotate(-2deg);z-index:-1}.welcome-text p{font-size:13px;line-height:1.9;letter-spacing:.7px;color:#9f8571;margin:0}.welcome-orbit{position:relative;width:300px;height:300px;margin:auto;display:grid;place-items:center}.orbit-ring{position:absolute;inset:12px;border:1px dashed #d8c1a4;border-radius:50%;transform:rotate(-15deg)}.orbit-ring:after{content:"";position:absolute;inset:16px;border:1px solid #ebdfca;border-radius:50%}.welcome-bowl{width:170px;height:170px;display:flex;align-items:center;justify-content:center;flex-direction:column;border-radius:50%;background:#f7e8d4}.welcome-bowl svg{width:123px;height:123px;fill:#f4ccb3;stroke:#b37859;stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round}.welcome-bowl .bowl-heart{fill:#e8a088;stroke:none}.welcome-bowl .bowl-smile{fill:none;stroke:#b37859}.welcome-bowl>span{font-size:7px;letter-spacing:1px;color:#b09175;margin-top:0}.orbit-food{position:absolute;font-size:34px;animation:food-bob 4s ease-in-out infinite}.food-one{top:6px;left:74px;transform:rotate(-13deg)}.food-two{top:78px;right:-1px;animation-delay:-1s}.food-three{bottom:6px;right:73px;animation-delay:-2s}.food-four{bottom:76px;left:-5px;animation-delay:-3s}.orbit-spark{position:absolute;top:36px;right:38px;font-size:23px;color:#b5b796}.welcome-action{grid-column:1/-1;width:100%;max-width:330px;margin:12px auto 0}.welcome-action .primary-button{font-size:14px}.quiet-caption{font-size:9px;text-align:center;color:#b59c85;line-height:1.7;margin:14px 0 0;letter-spacing:.5px}
+.category-grid{display:grid;grid-template-columns:1fr 1fr;gap:11px;width:100%;max-width:440px}.category-button{min-height:59px;padding:10px 17px;display:flex;gap:11px;align-items:center;text-align:left;background:#fffaf2;border:1px solid #e9dccb;border-radius:14px;font-size:13px;transition:background .2s,border .2s,transform .2s}.category-button:first-child{grid-column:span 2;justify-content:center}.category-emoji{font-size:25px;line-height:1}.category-check{font-size:12px;opacity:0;margin-left:auto}.category-button:first-child .category-check{margin-left:5px}.category-button.active{background:#fbe5d6;border-color:#dfa88d;color:#a85d45;transform:translateY(-1px)}.category-button.active .category-check{opacity:1}.category-button:hover{border-color:#d7b596}.category-button:disabled{opacity:.6}
+.wheel-tools{display:flex;align-items:center;justify-content:center;gap:20px}.history-dialog{width:380px;max-height:80dvh;padding:31px 27px;text-align:left}.history-dialog h2{font-family:var(--serif);font-size:25px;margin:12px 0 20px}.history-list{margin:10px 0 20px;display:grid;gap:9px}.history-item{display:flex;align-items:center;gap:9px;font-size:12px;color:#8c705d;padding:10px 0;border-bottom:1px dashed #e9decd}.history-item>span:first-child{font-size:20px}.history-item small{margin-left:auto;font-size:10px;color:#b8a48f}.history-item .confirmed{color:#92a27f}.empty-history{font-size:12px;line-height:2;color:#b8a48f;margin:15px 0}
+footer{height:48px;flex-shrink:0;display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--line);font-size:10px;color:#b19882;letter-spacing:.6px;padding-bottom:env(safe-area-inset-bottom,0)}.footer-heart{color:#d49478;margin:0 5px}.footer-label{font-size:9px}.progress-dots{display:flex;gap:7px}.progress-dots i{height:5px;width:5px;background:#e5d5bf;border-radius:10px;transition:width .5s,background .4s}.progress-dots i.current{width:19px;background:#cf9a7c}
+@keyframes food-bob{50%{translate:0 -7px}}
+.wheel-stage{position:relative;padding-top:28px;text-align:center}.wheel-frame{position:relative;width:min(100%,392px);aspect-ratio:1;margin:0 auto;border-radius:50%;background:#f8e7d3;padding:11px;box-shadow:0 0 0 1px #e9d4bb,0 8px 0 #ecdbc6,0 12px 24px #7d503518}.wheel-frame:before{content:"";position:absolute;inset:5px;border:1px dashed #c7a58788;border-radius:50%;pointer-events:none;z-index:1}.wheel{display:block;width:100%;height:100%;border-radius:50%;transform:rotate(0deg);will-change:transform}.wheel text{font-family:var(--sans);font-weight:600;fill:#664b38;font-size:12.1px;letter-spacing:.5px}.pointer{position:absolute;width:31px;height:42px;top:-20px;left:50%;transform:translateX(-50%);z-index:4;filter:drop-shadow(0 3px 2px #84514020)}.pointer svg{width:100%;height:100%;overflow:visible}.pointer path{fill:#c15d48;stroke:#fff9ee;stroke-width:2}.pointer circle{fill:#f5c49a}.wheel-center{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:101px;height:101px;border-radius:50%;background:#fffcf3;box-shadow:0 0 0 6px #ffffff90,0 3px 13px #85564130;display:flex;align-items:center;justify-content:center;flex-direction:column;z-index:3}.wheel-center>span{font-size:32px;line-height:1.1;display:block}.wheel-center b{font-size:13px;color:#a26449;margin:5px 0}.wheel-center small{font-size:4.5px;letter-spacing:.55px;color:#b6977c}.doodle{position:absolute;color:#ba7756;font-family:var(--serif);z-index:1}.doodle-one{left:0;top:85px;font-size:29px;color:#b5b995;transform:rotate(15deg)}.doodle-two{right:2px;bottom:76px;font-size:29px;transform:rotate(19deg)}.wheel-bottom-note{display:inline-block;margin-top:21px;font-size:11px;letter-spacing:2px;color:#b09784}.spin-area{margin:19px auto 0;max-width:330px;text-align:center}.primary-button{width:100%;min-height:52px;padding:13px 20px;border-radius:14px;background:var(--coral);color:#fffdf6;display:flex;justify-content:center;align-items:center;gap:12px;font-weight:600;letter-spacing:1px;box-shadow:0 4px 0 #d6655140;transition:background .2s,transform .2s}.primary-button:hover{background:#e16e58}.primary-button:active{transform:translateY(2px);box-shadow:0 2px 0 #d6655140}.primary-button:disabled{background:#eaa995;box-shadow:none}.spin-button{justify-content:space-between;font-size:16px}.spin-icon{font-size:25px;line-height:20px}.shuffle-button{margin:16px 0 0;padding:3px 8px;background:transparent;color:#a08775;font-size:11px;letter-spacing:.5px}.shuffle-button span{margin-right:3px;font-size:18px;vertical-align:-1px}dialog{padding:0;max-width:calc(100% - 32px);border:1px solid #eaddcb;color:var(--ink);background:var(--paper);border-radius:26px;box-shadow:0 24px 90px #48312335}dialog::backdrop{background:#49382e65;backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px)}dialog[open]{animation:dialog-in .25s ease-out}.close-button{position:absolute;right:17px;top:14px;border:1px solid #e9dccb;border-radius:50%;width:30px;height:30px;font-size:22px;line-height:26px;color:#a48b76;background:#fffaf2;z-index:2;font-weight:300}.result-dialog{width:410px;text-align:center;overflow:visible}.result-content{padding:38px 32px 24px;position:relative;overflow:hidden;border-radius:26px}.result-kicker{font-size:10px;letter-spacing:2px;color:#b18a70}.result-emoji{font-size:65px;line-height:1.3;margin:26px auto 12px;filter:drop-shadow(0 7px 0 #f2dfc780)}.result-prefix{font-size:12px;color:#ad8b74;letter-spacing:1px;margin:0}.result-content h2{font-family:var(--serif);font-size:31px;font-weight:600;line-height:1.5;margin:7px 0 12px;word-break:break-word}.result-category{font-size:10px;padding:5px 12px;border:1px solid #e6d7bf;border-radius:30px;color:#ad886b}.result-message{font-size:12px;line-height:1.9;color:#a68b72;margin:24px 0}.secondary-button{width:100%;padding:12px 10px;background:transparent;font-size:12px;color:#a38670;margin-top:6px;border-radius:10px;min-height:44px}.secondary-button:hover{background:#f5eadb}.result-footnote{font-size:9px;color:#baa58d;margin:18px 0 0}.menu-dialog{width:620px;max-height:85dvh;overflow:hidden}.dialog-header{position:relative;padding:28px 28px 19px;border-bottom:1px solid var(--line)}.dialog-header h2{font-family:var(--serif);font-size:25px;margin:7px 0 0}.menu-body{padding:22px 28px 28px;max-height:calc(85dvh - 110px);overflow-y:auto;overscroll-behavior:contain}.menu-tabs{display:flex;gap:20px;border-bottom:1px solid var(--line);margin-bottom:20px}.menu-tabs button{background:transparent;padding:0 1px 12px;font-size:12px;color:#b09880;position:relative}.menu-tabs button.active{color:#ad6248}.menu-tabs button.active:after{content:"";position:absolute;height:2px;background:#c98166;bottom:-1px;left:0;right:0}.search-box{display:flex;align-items:center;gap:8px;border:1px solid #e6d8c4;background:#fffbf5;border-radius:12px;padding:8px 12px}.search-box>span{font-size:24px;line-height:24px;color:#a1846a}.search-box input{width:100%;background:transparent;border:0;outline:0;font-size:12px;color:var(--ink);padding:5px}.menu-group{margin-top:24px}.menu-group h3{font-size:13px;font-weight:600;margin:0 0 12px;display:flex;gap:8px;align-items:center}.menu-group h3 small{font-size:9px;font-weight:400;color:#b19a81;margin-left:auto}.menu-chips{display:flex;flex-wrap:wrap;gap:7px}.menu-chip{font-size:11px;line-height:1.5;border:1px solid #eadcc8;padding:6px 10px;border-radius:8px;color:#9c7a5e;background:#fffaf2}.menu-chip button{background:none;border:0;padding:0 0 0 8px;font-size:15px;color:#c2886b}.custom-intro{font-size:13px;line-height:1.8;color:#997a62}.custom-intro span{font-size:11px;color:#b0977d}textarea{resize:vertical;width:100%;border:1px solid #e5d4ba;border-radius:12px;padding:14px;background:#fffdf7;color:var(--ink);font-size:13px;line-height:1.9}textarea::placeholder,input::placeholder{color:#c3af99}.custom-actions{margin-top:14px}.custom-actions .primary-button{min-height:46px;font-size:13px}.custom-feedback{font-size:11px;line-height:1.7;margin:7px 0 16px;color:#a47b60}.share-dialog{text-align:center;width:390px;padding:33px 28px 28px}.share-flower{font-size:56px;color:#c28a67;line-height:1.3;display:block}.share-dialog h2{font-family:var(--serif);font-size:25px;margin:15px 0}.share-dialog p{font-size:12px;color:#a1846c;line-height:1.9;margin:0 0 24px}.share-dialog .primary-button{font-size:13px}.share-dialog input{width:100%;border:1px solid #e6d7c1;background:#fffdf7;border-radius:9px;font-size:10px;padding:11px;color:#b0987c;margin-top:16px}.toast{position:fixed;left:50%;bottom:35px;transform:translate(-50%,10px);background:#654c3eec;color:#fff9ef;border-radius:12px;padding:12px 21px;font-size:12px;max-width:calc(100% - 34px);width:max-content;opacity:0;pointer-events:none;z-index:99;transition:opacity .2s,transform .2s;text-align:center;line-height:1.6}.toast.visible{opacity:1;transform:translate(-50%,0)}.confetti{position:fixed;inset:0;pointer-events:none;z-index:100;overflow:hidden}.confetti i{position:absolute;top:-18px;width:8px;height:13px;animation:confetti-fall 2.4s ease-in forwards;opacity:0}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.spinning .pointer{animation:pointer-tick .16s ease-in-out infinite}.spinning .spin-icon{animation:spin-icon 1.1s linear infinite}.spinning .wheel-center{pointer-events:none}.no-results{font-size:12px;color:#ad9278;padding:25px 0;text-align:center}@keyframes pointer-tick{50%{transform:translateX(-50%) rotate(-8deg)}}@keyframes spin-icon{to{transform:rotate(360deg)}}@keyframes dialog-in{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}@keyframes confetti-fall{0%{opacity:1;transform:translateY(-10vh) rotate(0)}100%{opacity:0;transform:translateY(110vh) rotate(620deg)}}.love-dialog{width:430px;max-height:90dvh;text-align:center;padding:29px 29px 25px;background:#fff8ee;background-image:radial-gradient(#d8ae7930 .7px,transparent .7px);background-size:8px 8px}.love-letter-icon{color:#d4896f;font-family:Georgia,serif;font-size:54px;line-height:1.1;margin:0 auto 12px;transform:rotate(-9deg)}.love-letter-kicker{font-size:8px;letter-spacing:1.8px;color:#b39378}.love-dialog h2{font-family:var(--serif);font-size:27px;letter-spacing:1px;font-weight:600;margin:15px 0 20px}.love-letter-body{font-family:var(--serif);color:#94735b;font-size:14px;line-height:2.05;letter-spacing:.3px}.love-letter-body p{margin:0 0 17px}.love-letter-body .love-promise{color:#bc7256;font-size:15px;margin:20px 0}.love-meal{display:inline-block;border-top:1px solid #ead9c2;padding-top:13px;margin:0 0 18px;font-size:10px;color:#ad9278}.love-dialog .primary-button{font-size:13px;min-height:48px}.love-letter-foot{display:block;font-size:8px;color:#baa28a;margin-top:15px;line-height:1.7}@media(max-width:400px){.love-dialog{padding:26px 22px 23px}.love-dialog h2{font-size:24px}.love-letter-body{font-size:12px}.love-letter-body .love-promise{font-size:13px}.love-letter-icon{font-size:45px;margin-bottom:10px}}
+
+.wheel-card{gap:8px}.wheel-stage{width:100%;max-width:430px;padding:25px 0 0;text-align:center;flex-shrink:0}.wheel-frame{width:min(78vw,350px,calc(100svh - 340px));min-width:170px}.wheel-center{width:26%;height:26%}.wheel-center>span{font-size:27px}.wheel-center b{font-size:11px}.wheel-center small{font-size:4px}.doodle-one{left:12px;top:70px}.doodle-two{right:13px;bottom:54px}.wheel-bottom-note{margin-top:20px;font-size:10px}.spin-area{width:100%;max-width:330px;margin:12px auto 0}.wheel-tools .shuffle-button{margin-top:14px;font-size:10px}.screen-back:disabled{opacity:.4}.result-content{width:100%;max-width:380px;text-align:center;padding:24px 15px;overflow:visible}.result-content h2{font-size:34px;margin-top:8px;line-height:1.4}.result-emoji{font-size:74px;margin:23px 0 13px}.result-message{margin:24px 0}.result-content .inline-link{margin:10px 0 2px}.result-content .secondary-button{min-height:44px}.result-footnote{margin-top:18px}.result-content .primary-button{font-size:14px}#screen-result{gap:0}
+@media(max-width:620px){.page-shell{padding:0 23px}.site-header{height:65px}.brand{font-size:14px;gap:8px;letter-spacing:1px}.brand-mark{width:34px;height:34px;border-radius:10px}.brand-mark svg{width:29px}.brand-en{font-size:6px;letter-spacing:1.3px}.text-button{font-size:10px}.screen{padding:19px 0;gap:23px}.screen-back{top:18px;width:31px;height:31px;font-size:17px}.welcome-inner{grid-template-columns:1fr;gap:17px}.welcome-text{padding:0;text-align:center}.love-label{font-size:9px;letter-spacing:1.2px}h1{font-size:36px;line-height:1.32;margin:13px 0 12px;letter-spacing:2px}.welcome-text p{font-size:11px;line-height:1.8}.welcome-orbit{width:190px;height:190px}.welcome-bowl{width:118px;height:118px}.welcome-bowl svg{width:88px;height:88px}.welcome-bowl>span{font-size:5px}.orbit-ring{inset:7px}.orbit-ring:after{inset:11px}.orbit-food{font-size:25px}.food-one{left:43px;top:-1px}.food-two{right:-6px;top:48px}.food-three{bottom:-1px;right:40px}.food-four{left:-7px;bottom:43px}.orbit-spark{font-size:17px;right:25px;top:20px}.welcome-action{margin-top:3px;max-width:310px}.welcome-action .primary-button{min-height:49px;font-size:13px}.quiet-caption{font-size:8px;margin-top:12px}.section-kicker{font-size:8px;letter-spacing:1.7px}.screen-top h2{font-size:26px;margin:12px 0 8px}.screen-top p{font-size:10px}.category-grid{gap:10px;max-width:390px}.category-button{min-height:53px;font-size:12px;border-radius:12px;padding:10px 13px;gap:9px}.category-emoji{font-size:23px}.screen-action .primary-button{min-height:49px;font-size:13px}.menu-tools{font-size:9px;margin-top:14px}.menu-tools .inline-link{font-size:10px}.wheel-card{gap:6px}.wheel-card .screen-top h2{font-size:26px}.wheel-stage{max-width:390px;padding-top:25px}.wheel-frame{width:min(78vw,350px,calc(100svh - 330px));padding:9px}.wheel-frame:before{inset:4px}.wheel-bottom-note{font-size:9px;letter-spacing:1.3px;margin-top:19px}.spin-area{margin-top:10px;max-width:310px}.spin-button{min-height:49px;font-size:14px}.wheel-tools{gap:18px}.wheel-tools .shuffle-button{margin-top:13px;font-size:9px}.doodle-one{left:0;font-size:24px;top:70px}.doodle-two{right:0;font-size:24px}.pointer{width:28px;height:38px;top:-18px}.wheel-center>span{font-size:25px}.wheel-center b{font-size:10px}.wheel-center small{font-size:3.5px}.result-content{padding:20px 4px;max-width:340px}.result-content h2{font-size:30px}.result-emoji{font-size:69px;margin-top:20px}.result-message{font-size:12px;margin:22px 0}.result-kicker{font-size:9px}.result-footnote{font-size:8px}.result-content .primary-button{min-height:49px;font-size:13px}footer{height:42px;font-size:8px}.footer-label{font-size:7px;letter-spacing:0}.footer-heart{margin:0 3px}.progress-dots{gap:5px}.progress-dots i{width:4px;height:4px}.progress-dots i.current{width:15px}.menu-dialog{max-height:85dvh}.dialog-header{padding:24px 22px 17px}.dialog-header h2{font-size:23px}.menu-body{padding:20px 22px 25px;max-height:calc(85dvh - 105px)}.menu-tabs{gap:16px}.menu-tabs button{font-size:11px}.toast{font-size:11px;bottom:26px}}
+@media(max-height:690px){.site-header{height:58px}.screen{gap:16px;padding-top:18px;padding-bottom:16px}h1{font-size:31px;margin:10px 0}.welcome-inner{gap:11px}.welcome-orbit{width:155px;height:155px}.welcome-bowl{width:96px;height:96px}.welcome-bowl svg{width:72px;height:72px}.welcome-bowl>span{font-size:4px}.orbit-food{font-size:21px}.food-one{left:34px}.food-two{top:38px}.food-three{right:34px}.food-four{bottom:34px}.orbit-spark{right:20px;top:14px}.welcome-text p{font-size:10px}.category-grid{gap:8px}.category-button{min-height:45px}.screen-top h2{font-size:23px;margin:8px 0 6px}.wheel-card{gap:4px}.wheel-stage{padding-top:22px}.wheel-bottom-note{margin-top:14px}.spin-area{margin-top:7px}.wheel-tools .shuffle-button{margin-top:10px}.result-emoji{font-size:53px;margin:15px 0 9px}.result-content h2{font-size:28px}.result-message{margin:17px 0;font-size:11px}.result-footnote{margin-top:11px}.result-content{padding:12px 4px}footer{height:35px}.screen-action .primary-button,.spin-button,.welcome-action .primary-button{min-height:46px}.love-dialog{padding:23px 23px 20px}.love-letter-icon{font-size:36px;margin-bottom:8px}.love-dialog h2{font-size:23px;margin:12px 0 15px}.love-letter-body{font-size:12px;line-height:1.85}.love-letter-body p{margin-bottom:13px}.love-letter-body .love-promise{font-size:13px;margin:15px 0}.love-meal{margin-bottom:14px;padding-top:10px}.love-letter-foot{font-size:7px;margin-top:11px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.screen{transform:none!important}}
+</style>
+  
+  
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="苗苗的小食光首页"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M7 18h26c-1 10-5 15-13 15S8 28 7 18Z"/><path d="M5 18h30M12 8l4 10M22 6l-1 12M30 9l-4 9M14 35h12"/></svg></span><span>苗苗的小食光<span class="brand-en">A LITTLE TASTE OF LOVE</span></span></a>
+      <button class="text-button" id="share-open"><span aria-hidden="true">↗</span> 分享</button>
+    </header>
+    <main class="screen-stage" aria-label="今天吃什么互动小旅程">
+      <section id="screen-welcome" class="screen active" aria-hidden="false" aria-labelledby="page-title">
+        <div class="welcome-inner">
+          <div class="welcome-text"><div class="love-label">♡ 陈自友的专属投喂计划</div><h1 id="page-title" tabindex="-1">苗苗，今天<br>吃点<span class="underline">什么好</span>？</h1><p>想不出来也没关系，<br>让小幸运替你拿个主意。</p></div>
+          <div class="welcome-orbit" aria-hidden="true"><div class="orbit-ring"></div><span class="orbit-food food-one">🍅</span><span class="orbit-food food-two">🍜</span><span class="orbit-food food-three">🥦</span><span class="orbit-food food-four">🥟</span><span class="orbit-spark">✧</span><div class="welcome-bowl"><svg viewBox="0 0 160 160"><path d="M32 76h96c-4 38-20 58-48 58S36 114 32 76Z"/><path d="M26 76h108M52 37l23 39M101 24 88 76M126 40l-24 36M59 141h42"/><path class="bowl-smile" d="M69 105q11 12 22 0"/><path class="bowl-heart" d="M78 50s-18-10-18-21c0-10 12-12 18-3 6-9 18-7 18 3 0 11-18 21-18 21Z"/></svg><span>好好吃饭 · 好好被爱</span></div></div>
+          <div class="welcome-action"><button class="primary-button" id="start-button">开始今天的小幸运 <span aria-hidden="true">→</span></button><p class="quiet-caption">120 道美味，总有一口让你心动</p></div>
+        </div>
+      </section>
+
+      <section id="screen-category" class="screen" aria-hidden="true" aria-labelledby="mood-heading" inert>
+        <button class="screen-back" id="category-back" aria-label="返回欢迎页">←</button>
+        <div class="screen-top"><div class="section-kicker">01 / PICK YOUR MOOD</div><h2 id="mood-heading" tabindex="-1">今天想吃哪一口？</h2><p>先选个方向，剩下的交给缘分。</p></div>
+        <div id="categories" class="category-grid" role="group" aria-label="美食分类"></div>
+        <div class="screen-action"><button id="next-to-wheel" class="primary-button">选好了，去转转 <span aria-hidden="true">→</span></button><div class="menu-tools"><span id="pool-count">120 道美食等你翻牌</span><button id="menu-open" class="inline-link">看看全部菜单 ↗</button></div></div>
+      </section>
+
+      <section id="screen-wheel" class="screen wheel-card" aria-hidden="true" aria-labelledby="spin-heading" inert>
+        <button class="screen-back" id="wheel-back" aria-label="返回选择口味">←</button>
+        <div class="screen-top"><div class="section-kicker">02 / A LITTLE BIT OF LUCK</div><h2 id="spin-heading" tabindex="-1">让小幸运转起来</h2><p id="wheel-count">12 个美味候选</p></div>
+        <div class="wheel-stage"><span class="doodle doodle-one" aria-hidden="true">✳</span><span class="doodle doodle-two" aria-hidden="true">♡</span><div class="wheel-frame"><div class="pointer" aria-hidden="true"><svg viewBox="0 0 34 44"><path d="M4 5Q17-3 30 5Q35 10 29 20L17 40 5 20Q-1 10 4 5Z"/><circle cx="17" cy="11" r="4"/></svg></div><svg id="wheel" class="wheel" viewBox="0 0 400 400" role="img" aria-labelledby="wheel-title wheel-desc"><title id="wheel-title">今天吃什么幸运转盘</title><desc id="wheel-desc">点击帮苗苗决定，随机选择一道美食。</desc><g id="wheel-sectors"></g></svg><button id="center-spin" class="wheel-center" aria-label="转动美食转盘"><span aria-hidden="true">🍚</span><b>开 饭 啦</b><small>GOOD FOOD, GOOD MOOD</small></button></div><span class="wheel-bottom-note" id="wheel-note">转到什么，就宠幸哪一口</span></div>
+        <div class="spin-area"><button class="primary-button spin-button" id="spin-button"><span class="spin-icon" aria-hidden="true">↻</span><span id="spin-label">帮苗苗决定</span><span aria-hidden="true">✧</span></button><div class="wheel-tools"><button id="shuffle-button" class="shuffle-button">⤨ 换一批候选</button><button id="history-open" class="shuffle-button">◷ 最近的小幸运</button></div></div>
+      </section>
+
+      <section id="screen-result" class="screen" aria-hidden="true" aria-labelledby="result-title" inert>
+        <button class="screen-back" id="result-back" aria-label="重新选择口味">←</button>
+        <div class="result-content"><span class="result-kicker" id="result-kicker">叮！你的小幸运送达啦</span><div class="result-emoji" id="result-emoji" aria-hidden="true">🍚</div><p class="result-prefix" id="result-prefix">苗苗，这一顿就吃</p><h2 id="result-title" tabindex="-1"></h2><span class="result-category" id="result-category"></span><p class="result-message" id="result-message">纠结结束，美味开始。<br>记得把第一口快乐，分享给自友呀。</p><button id="accept-result" class="primary-button">就吃这个！ <span aria-hidden="true">♡</span></button><button id="respin" class="secondary-button">还想再试试手气 ↻</button><button id="copy-result" class="inline-link" hidden>复制这份小幸运，发给自友 ↗</button><button id="restart" class="secondary-button" hidden>再开启一份小幸运 →</button><p class="result-footnote">当然啦，苗苗的胃口永远有最终决定权。</p></div>
+      </section>
+    </main>
+    <footer><span>陈自友 <span class="footer-heart">♡</span> 陶苗苗</span><div class="progress-dots" aria-label="当前在第1个界面，共4个界面"><i class="current"></i><i></i><i></i><i></i></div><span class="footer-label">每一顿，都有小期待</span></footer>
+  </div>
+  <dialog id="history-dialog" class="history-dialog" aria-labelledby="history-heading"><button class="close-button" data-close aria-label="关闭记录">×</button><span class="section-kicker">A FEW LITTLE LUCKY MOMENTS</span><h2 id="history-heading">最近的小幸运</h2><div id="history-list" class="history-list"></div><button class="inline-link" id="clear-history" hidden>清空记录</button><p class="quiet-caption">小幸运记录只保存在当前设备</p></dialog>
+  <dialog id="love-dialog" class="love-dialog" aria-labelledby="love-title">
+    <button class="close-button" data-close aria-label="收起小情书">×</button>
+    <div class="love-letter-icon" aria-hidden="true">♡</div>
+    <span class="love-letter-kicker">TO 陶苗苗 · FROM 陈自友</span>
+    <h2 id="love-title">苗苗，要一直开心呀</h2>
+    <div id="love-letter-body" class="love-letter-body">
+      <p>希望你每天都能好好吃饭，好好睡觉，<br>有小小的期待，也有满满的快乐。</p>
+      <p>开心的时候，我想陪你一起笑；<br>不开心的时候，也记得来找我。<br>生活偶尔会有点烦，<br>但你在我这里，永远值得被认真偏爱。</p>
+      <p class="love-promise">陈自友会一直爱着陶苗苗，<br>今天、明天，还有以后的每一天。</p>
+    </div>
+    <div id="love-meal" class="love-meal"></div>
+    <button id="love-received" class="primary-button">收到自友的爱啦 <span aria-hidden="true">♡</span></button>
+    <span class="love-letter-foot">愿你每一顿都吃得开心，每一天都被爱包围。</span>
+  </dialog>
+
+  <dialog id="menu-dialog" class="menu-dialog" aria-labelledby="menu-title">
+    <div class="dialog-header"><div><span class="section-kicker">THE LITTLE MENU</span><h2 id="menu-title">苗苗的美味备选库</h2></div><button class="close-button" data-close aria-label="关闭菜单">×</button></div>
+    <div class="menu-body">
+      <div class="menu-tabs" role="group" aria-label="菜单类型"><button id="builtin-tab" class="active" aria-pressed="true">120 道好吃的</button><button id="custom-tab" aria-pressed="false">我们的私藏菜单</button></div>
+      <div id="builtin-panel"><label class="search-box"><span aria-hidden="true">⌕</span><input id="menu-search" type="search" placeholder="搜一道想吃的，比如：牛肉" aria-label="搜索美食" maxlength="30"></label><div id="menu-library"></div></div>
+      <div id="custom-panel" hidden>
+        <p class="custom-intro">加上你们爱吃的菜，或常去的店。<br><span>一行一个，最多 60 个；只保存在当前设备。</span></p>
+        <label class="sr-only" for="custom-input">自定义菜单，一行一道菜</label><textarea id="custom-input" rows="5" maxlength="1000" placeholder="楼下的黄焖鸡&#10;苗苗最爱的番茄米线&#10;自友做的蛋炒饭"></textarea>
+        <div class="custom-actions"><button id="save-custom" class="primary-button">保存私藏菜单</button><button id="use-custom" class="secondary-button">只转私藏菜单</button></div>
+        <div id="custom-feedback" role="status" class="custom-feedback"></div>
+        <div id="custom-chips" class="menu-chips"></div>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="share-dialog" class="share-dialog" aria-labelledby="share-title">
+    <button class="close-button" data-close aria-label="关闭分享">×</button>
+    <span class="share-flower" aria-hidden="true">✿</span><h2 id="share-title">把小幸运发给苗苗</h2>
+    <p>复制链接，粘贴到微信聊天里。<br>在微信里打开后，也可以点右上角“···”分享。</p>
+    <button id="copy-link" class="primary-button">复制网页链接 <span aria-hidden="true">↗</span></button>
+    <label class="sr-only" for="share-url">网页分享链接</label><input id="share-url" readonly aria-label="网页分享链接">
+  </dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="confetti" class="confetti" aria-hidden="true"></div>
+<script>"use strict";
+window.FOOD_CATEGORIES = [
+  { id: "all", name: "都可以，听天由胃", emoji: "✨" },
+  { id: "rice", name: "米饭万岁", emoji: "🍚", foods: ["黄焖鸡米饭","红烧牛肉饭","番茄炒蛋饭","土豆炖牛腩饭","宫保鸡丁饭","鱼香肉丝饭","照烧鸡腿饭","咖喱鸡肉饭","黑椒牛柳饭","卤肉饭","扬州炒饭","菠萝炒饭","腊味煲仔饭","香菇滑鸡饭","叉烧饭","韩式拌饭","鳗鱼饭","排骨焖饭","蛋包饭","酸豆角肉末饭"] },
+  { id: "noodles", name: "面面俱到", emoji: "🍜", foods: ["番茄鸡蛋面","兰州牛肉面","红烧牛肉面","重庆小面","炸酱面","武汉热干面","油泼面","葱油拌面","担担面","刀削面","日式豚骨拉面","意式肉酱面","新疆拌面","河南烩面","酸辣粉","螺蛳粉","过桥米线","桂林米粉","牛肉河粉","炒乌冬面"] },
+  { id: "hotpot", name: "热乎一锅", emoji: "🍲", foods: ["番茄火锅","菌菇火锅","重庆牛油火锅","潮汕牛肉火锅","椰子鸡火锅","寿喜烧","清汤羊肉锅","酸菜鱼","水煮鱼","麻辣香锅","麻辣烫","冒菜","砂锅豆腐煲","猪肚鸡","土豆炖牛腩","韩式部队锅","黄焖排骨","地锅鸡","干锅花菜","砂锅焖鸭"] },
+  { id: "snacks", name: "快乐小吃", emoji: "🍢", foods: ["鲜肉水饺","生煎包","小笼包","锅贴","馄饨","煎饼果子","肉夹馍","鸡蛋灌饼","烤冷面","章鱼小丸子","韩式炸鸡","烤鸡翅","烤肉卷饼","烧烤拼盘","鸡肉汉堡","牛肉芝士汉堡","披萨","关东煮","萝卜牛杂","寿司拼盘"] },
+  { id: "light", name: "清爽一点", emoji: "🥗", foods: ["鸡肉蔬菜沙拉","牛肉蔬菜沙拉","虾仁沙拉","温蔬菜拼盘","荞麦凉面","鸡丝凉面","凉皮","越南春卷","金枪鱼三明治","鸡蛋牛油果三明治","全麦鸡肉卷","番茄豆腐汤","冬瓜虾仁汤","菌菇蔬菜汤","山药排骨汤","清蒸鲈鱼","虾仁蒸蛋","蒸南瓜拼玉米","白灼虾配杂粮饭","清炒时蔬配米饭"] },
+  { id: "breakfast", name: "早午餐呀", emoji: "🥯", foods: ["皮蛋瘦肉粥","香菇鸡肉粥","小米南瓜粥","海鲜粥","豆浆油条","肉包配豆浆","鸡蛋葱花饼","手抓饼","鲜虾肠粉","牛肉肠粉","糯米饭团","紫菜包饭","鸡蛋三明治","贝果配酸奶","法式吐司","可颂炒蛋","燕麦水果碗","玉米鸡蛋套餐","豆腐脑配烧饼","烧麦配小米粥"] }
+];
+</script><script>"use strict";
+(() => {
+  const $ = (s) => document.querySelector(s);
+  const categories = window.FOOD_CATEGORIES;
+  const baseFoods = categories.filter(c => c.foods).flatMap(c => c.foods.map(name => ({name, category: c.id, emoji: c.emoji})));
+  const storage = { get(key, fallback) { try { return JSON.parse(localStorage.getItem(key)) ?? fallback; } catch { return fallback; } }, set(key, value) { try { localStorage.setItem(key, JSON.stringify(value)); return true; } catch { return false; } } };
+  let custom = storage.get("miaomiao.custom.v1", []);
+  if (!Array.isArray(custom)) custom = [];
+  custom = custom.filter(v => typeof v === "string" && v.trim()).slice(0, 60).map(v => v.slice(0, 16));
+  let history = storage.get("miaomiao.history.v1", []);
+  if (!Array.isArray(history)) history = [];
+  history = history.filter(v => v && typeof v.name === "string" && typeof v.emoji === "string" && Number.isFinite(v.time)).slice(0, 4);
+  let category = "all", candidates = [], rotation = 0, spinning = false, selected = null, resultId = null, spinTimer, toastTimer;
+  let lastLetter = -1;
+  let activeScreen = "welcome";
+  let navigating = false;
+  const screenOrder = ["welcome", "category", "wheel", "result"];
+  function goTo(name) {
+    if(navigating || activeScreen===name)return;
+    navigating=true;activeScreen=name;
+    document.querySelectorAll(".screen").forEach(screen=>{const id=screen.id.replace("screen-","");const active=id===name;screen.classList.toggle("active",active);screen.classList.toggle("past",screenOrder.indexOf(id)<screenOrder.indexOf(name));screen.setAttribute("aria-hidden",String(!active));screen.inert=!active;});
+    document.querySelectorAll(".progress-dots i").forEach((dot,i)=>dot.classList.toggle("current",i===screenOrder.indexOf(name)));
+    $(".progress-dots").setAttribute("aria-label",`当前在第${screenOrder.indexOf(name)+1}个界面，共4个界面`);
+    setTimeout(()=>{navigating=false;$("#screen-"+name).querySelector("h1,h2")?.focus({preventScroll:true});},520);
+  }
+  const loveLetters = [
+    {title:"苗苗，要一直开心呀",lines:["希望你每天都好好吃饭，好好睡觉。\n有小小的期待，也有满满的快乐。","开心的时候，我想陪你一起笑；\n不开心的时候，也记得来找我。","陈自友会一直爱着陶苗苗，\n今天、明天，还有以后的每一天。"]},
+    {title:"你是我的今日份偏爱",lines:["好吃的有很多种，\n而我喜欢的人，一直都是你。","这顿饭要吃得香香的，\n烦恼就留在碗底，不带走。","苗苗，你要记得，\n陈自友永远站在你这边。"]},
+    {title:"把快乐装进你的小碗",lines:["今天的饭要趁热吃，\n今天的你，也要好好被爱。","愿你有想吃就吃的快乐，\n有想笑就笑的轻松。","陶苗苗，世界再大，\n陈自友的偏爱都留给你。"]},
+    {title:"小朋友，请按时被爱",lines:["吃饭时间到了，\n自友的想你时间也到了。","希望你的每一天，\n都有热乎的饭和暖暖的心情。","苗苗，好好照顾自己，\n我会一直爱着你。"]},
+    {title:"今天也最最喜欢你",lines:["菜单可以每天换，\n喜欢苗苗这件事，不用换。","想陪你吃好多好多顿饭，\n把平凡的日子过得有滋有味。","从今天的这一口开始，\n陈自友想一直陪着陶苗苗。"]},
+    {title:"不开心也可以来找我",lines:["如果今天有一点点累，\n就先吃顿喜欢的，歇一会儿。","你不用每一刻都很开心，\n在我面前，也可以做真实的自己。","陶苗苗，不管是什么心情，\n你都是陈自友很爱很爱的人。"]},
+    {title:"给苗苗的一点点甜",lines:["希望生活对你温柔一点，\n好吃的离你近一点。","如果今天的快乐还不够，\n就再加上自友的一个抱抱。","要开心，要被偏爱，\n要记得陈自友一直爱着你。"]},
+    {title:"你值得所有小美好",lines:["愿你吃到的每一口都合胃口，\n遇到的每一天都有小惊喜。","那些看起来不起眼的日常，\n因为有你，都变得很值得期待。","苗苗，愿你一直开心，\n我会一直把你放在心上。"]},
+    {title:"今日投喂：一份喜欢",lines:["这份菜单由小转盘决定，\n这份喜欢，由陈自友亲自送达。","主食是好好吃饭，\n配菜是天天开心，甜点是我的想你。","收件人陶苗苗：\n这份爱，没有截止日期。"]},
+    {title:"普通的一天，也很爱你",lines:["不用等特别的节日，\n今天就想认真说一句喜欢你。","想听你说饭好不好吃，\n也想听你说今天的小事。","陈自友爱陶苗苗，\n在热热闹闹里，也在平平淡淡里。"]},
+    {title:"把小烦恼暂时放下",lines:["先把饭吃好，\n再慢慢面对今天的事情。","遇到烦心事的时候，\n别忘了，你还有自友可以说说话。","苗苗，愿你心里常有小太阳，\n我会一直陪着你、爱着你。"]},
+    {title:"想和你吃很多顿饭",lines:["一顿饭的时间不算长，\n可我想和你吃很多很多顿。","早餐、午餐、晚餐，\n还有偶尔嘴馋的那一顿。","把每一天都过成我们的小日子，\n把每一份偏爱都给陶苗苗。"]},
+    {title:"苗苗的快乐优先",lines:["今天想吃什么都可以，\n在自友这里，你的开心很重要。","希望你能放心做自己，\n撒娇也好，发呆也好，都很可爱。","陶苗苗，请一直记得：\n你是陈自友认真喜欢的人。"]},
+    {title:"有好吃的，也有我",lines:["热乎乎的饭会照顾你的胃，\n自友想照顾你的心情。","愿你每次想起我，\n都能觉得心里暖暖的、踏实一点。","苗苗，今天要吃得开心，\n以后的每一天，我也想陪你。"]},
+    {title:"一口美味，一点想念",lines:["吃到好吃的时候，\n记得在心里分我一小口。","我也把今天的想念，\n悄悄放进这个小转盘里了。","转来转去，饭可以不一样，\n陈自友喜欢陶苗苗，一直都一样。"]},
+    {title:"愿你的每一天都暖暖的",lines:["愿你的饭是热的，\n觉是香的，心情是轻松的。","愿你总能发现一点小美好，\n也总能感受到自己被爱着。","陶苗苗，要一直幸福呀。\n陈自友会一直认真地爱你。"]},
+    {title:"给最可爱的苗苗",lines:["今天也辛苦啦，\n先奖励自己一顿喜欢的饭吧。","不用把所有事情都做得完美，\n好好吃饭、好好休息就已经很棒了。","你负责慢慢开心，\n陈自友负责一直喜欢你。"]},
+    {title:"下一顿，也想和你一起",lines:["今天的菜单已经选好，\n明天的陪伴，我也想预订。","想和你分享一日三餐，\n也想分享生活里细细碎碎的快乐。","苗苗，今天爱你，明天爱你，\n以后的每一天，都想继续爱你。"]},
+    {title:"请查收自友的抱抱",lines:["这是一份不用排队的抱抱，\n附赠一颗一直惦记你的心。","希望你吃得饱饱，笑得甜甜，\n把自己照顾得好好的。","陶苗苗，你永远是\n陈自友心里很特别、很珍贵的人。"]},
+    {title:"最想收藏的是你的笑",lines:["菜单里有一百多种美味，\n我心里最甜的，还是你的笑。","愿你今天少一点烦恼，\n多一点满足，和一点点好运。","苗苗，要一直开开心心。\n陈自友会一直一直爱着你。"]}
+  ];
+  const colors = ["#f2c4a8", "#f9e4bc", "#e5e9d1", "#f5d6be", "#f6e9cd", "#edd1b4", "#e4e7d0", "#f8ddba", "#efc3aa", "#f6e5c5", "#e2e6ce", "#f5d8bc"];
+  const ns = "http://www.w3.org/2000/svg";
+  function svgEl(name, attrs, value) { const el = document.createElementNS(ns, name); Object.entries(attrs).forEach(([k,v]) => el.setAttribute(k,v)); if (value != null) el.textContent = value; return el; }
+  function randomInt(max) { if (window.crypto?.getRandomValues) { const a = new Uint32Array(1), limit = Math.floor(4294967296 / max) * max; do { crypto.getRandomValues(a); } while(a[0] >= limit); return a[0] % max; } return Math.floor(Math.random()*max); }
+  function shuffled(items) { const result = [...items]; for(let i=result.length-1;i>0;i--){const j=randomInt(i+1);[result[i],result[j]]=[result[j],result[i]];} return result; }
+  function getPool() { if(category === "custom") return custom.map(name=>({name,category:"custom",emoji:"♡"})); return category === "all" ? baseFoods : baseFoods.filter(f=>f.category===category); }
+  function toast(message) { clearTimeout(toastTimer); $("#toast").textContent=message; $("#toast").classList.add("visible"); toastTimer=setTimeout(()=>$("#toast").classList.remove("visible"),3200); }
+  function openDialog(dialog) { if(!dialog.open)dialog.showModal(); }
+  document.querySelectorAll("[data-close]").forEach(b=>b.addEventListener("click",()=>b.closest("dialog").close()));
+  document.querySelectorAll("dialog").forEach(d=>d.addEventListener("click",e=>{if(e.target===d){const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)d.close();}}));
+
+  function renderCategories() {
+    $("#categories").replaceChildren();
+    const list = [...categories];
+    if(custom.length) list.push({id:"custom",name:"我们的私藏",emoji:"♡"});
+    list.forEach(c=>{const b=document.createElement("button");b.className="category-button"+(c.id===category?" active":"");b.disabled=spinning;b.setAttribute("aria-pressed",String(c.id===category));
+      const em=document.createElement("span");em.className="category-emoji";em.textContent=c.emoji;em.setAttribute("aria-hidden","true");
+      const label=document.createElement("span");label.textContent=c.name;const check=document.createElement("span");check.className="category-check";check.textContent="✓";check.setAttribute("aria-hidden","true");b.append(em,label,check);
+      b.addEventListener("click",()=>{if(spinning)return;category=c.id;renderCategories();refreshWheel();});$("#categories").append(b);
+    });
+  }
+  function refreshWheel() {
+    const pool=getPool();
+    if(category==="all") candidates=shuffled(categories.filter(c=>c.foods).flatMap(c=>shuffled(pool.filter(f=>f.category===c.id)).slice(0,2)));
+    else candidates=shuffled(pool).slice(0,12);
+    if(!candidates.length){category="all";renderCategories();return refreshWheel();}
+    const step=360/candidates.length;const g=$("#wheel-sectors");g.replaceChildren();
+    candidates.forEach((food,i)=>{
+      const center=-90+i*step,a=(center-step/2)*Math.PI/180,b=(center+step/2)*Math.PI/180;
+      const x1=200+198*Math.cos(a),y1=200+198*Math.sin(a),x2=200+198*Math.cos(b),y2=200+198*Math.sin(b);
+      const path=candidates.length===1?svgEl("circle",{cx:200,cy:200,r:198,fill:colors[0]}):svgEl("path",{d:`M200 200 L${x1} ${y1} A198 198 0 ${step>180?1:0} 1 ${x2} ${y2} Z`,fill:colors[i%colors.length],stroke:"#fff8eb", "stroke-width":1.6});
+      g.append(path);
+      const holder=svgEl("g",{transform:`rotate(${center} 200 200)`});
+      const label=svgEl("text",{x:323,y:204,"text-anchor":"middle",transform: i*step>180?"rotate(180 323 200)":""},food.name);
+      if(food.name.length>6)label.style.fontSize=food.name.length>9?"9.5px":"10.5px";
+      if(food.name.length>10){label.setAttribute("textLength","126");label.setAttribute("lengthAdjust","spacingAndGlyphs");}
+      holder.append(label);g.append(holder);
+    });
+    $("#wheel").style.transition="none";rotation=0;$("#wheel").style.transform="rotate(0deg)";
+    $("#wheel-desc").textContent="候选美食："+candidates.map(f=>f.name).join("、")+"。点击帮苗苗决定，随机选一道。";
+    $("#wheel-count").textContent=`${candidates.length} 个美味候选`;
+    $("#pool-count").textContent=`${pool.length} 道美食等你翻牌`;
+  }
+  function setSpinning(value) { spinning=value;$(".wheel-card").classList.toggle("spinning",value);$("#spin-button").disabled=value;$("#center-spin").disabled=value;$("#shuffle-button").disabled=value;$("#menu-open").disabled=value;$("#wheel-back").disabled=value;$("#spin-label").textContent=value?"小幸运正在路上…":"帮苗苗决定";$("#wheel-note").textContent=value?"正在认真挑选苗苗的快乐":"转到什么，就宠幸哪一口";renderCategories(); }
+  function spin() {
+    if(spinning)return;
+    const eligible=candidates.map((f,i)=>({f,i})).filter(({f})=>candidates.length===1||f.name!==history[0]?.name);
+    const choice=eligible[randomInt(eligible.length)] ?? {f:candidates[0],i:0};
+    selected={...choice.f};resultId=Date.now();
+    const step=360/candidates.length,jitter=(randomInt(401)/1000-.2)*Math.min(step,30);
+    const target=((360-choice.i*step+jitter)%360+360)%360;
+    const next=rotation+360*6+((target-rotation%360+360)%360);
+    const reduced=window.matchMedia("(prefers-reduced-motion: reduce)").matches,duration=reduced?300:4300;
+    setSpinning(true);$("#wheel").getBoundingClientRect();
+    $("#wheel").style.transition=`transform ${duration}ms cubic-bezier(.12,.78,.12,1)`;rotation=next;$("#wheel").style.transform=`rotate(${rotation}deg)`;
+    clearTimeout(spinTimer);spinTimer=setTimeout(finishSpin,duration+100);
+  }
+  function finishSpin() {
+    if(!spinning)return;clearTimeout(spinTimer);setSpinning(false);
+    history.unshift({...selected,time:resultId,accepted:false});history=history.slice(0,4);storage.set("miaomiao.history.v1",history);renderHistory();showResult();
+    if(navigator.vibrate)navigator.vibrate([35,40,35]);
+  }
+  $("#wheel").addEventListener("transitionend",e=>{if(e.propertyName==="transform")finishSpin();});
+  $("#spin-button").addEventListener("click",spin);$("#center-spin").addEventListener("click",spin);
+  $("#shuffle-button").addEventListener("click",()=>{if(!spinning){refreshWheel();toast("换好啦，又是一轮新鲜美味");}});
+  function showResult() {
+    $("#result-emoji").textContent=selected.emoji==="♡"?"🍽️":selected.emoji;$("#result-title").textContent=selected.name;
+    $("#result-category").textContent=categories.find(c=>c.id===selected.category)?.name||"你们的私藏美味";
+    $("#result-kicker").textContent="叮！你的小幸运送达啦";$("#result-prefix").textContent="苗苗，这一顿就吃";
+    $("#result-message").replaceChildren();$("#result-message").append("纠结结束，美味开始。",document.createElement("br"),"记得把第一口快乐，分享给自友呀。");
+    $("#accept-result").hidden=false;$("#respin").hidden=false;$("#copy-result").hidden=true;$("#restart").hidden=true;goTo("result");
+  }
+  $("#respin").addEventListener("click",()=>{goTo("wheel");setTimeout(spin,580);});
+  $("#accept-result").addEventListener("click",()=>{
+    const item=history.find(h=>h.time===resultId);if(item)item.accepted=true;storage.set("miaomiao.history.v1",history);renderHistory();
+    $("#result-kicker").textContent="今日菜单，开心敲定";$("#result-prefix").textContent="好！今天的快乐是";
+    $("#result-message").replaceChildren();$("#result-message").append("快去吃一顿喜欢的吧。",document.createElement("br"),"自友的小愿望：苗苗每顿都吃得开心。");
+    $("#accept-result").hidden=true;$("#respin").hidden=true;$("#copy-result").hidden=false;$("#restart").hidden=false;
+    const letterChoices=loveLetters.map((letter,index)=>({letter,index})).filter(({index})=>index!==lastLetter);
+    const chosenLetter=letterChoices[randomInt(letterChoices.length)];lastLetter=chosenLetter.index;
+    $("#love-title").textContent=chosenLetter.letter.title;$("#love-letter-body").replaceChildren();
+    chosenLetter.letter.lines.forEach((line,index)=>{const p=document.createElement("p");if(index===2)p.className="love-promise";line.split("\n").forEach((text,i)=>{if(i)p.append(document.createElement("br"));p.append(document.createTextNode(text));});$("#love-letter-body").append(p);});
+    $("#love-meal").textContent=`今天的美味：${selected.name} ${selected.emoji}`;
+    openDialog($("#love-dialog"));celebrate();
+  });
+  $("#love-received").addEventListener("click",()=>{$("#love-dialog").close();});
+  function renderHistory() {
+    const list=$("#history-list");list.replaceChildren();$("#clear-history").hidden=!history.length;
+    if(!history.length){const p=document.createElement("p");p.className="empty-history";p.textContent="第一份美味，等你转出来 ✧";list.append(p);return;}
+    history.forEach(h=>{const row=document.createElement("div");row.className="history-item";const em=document.createElement("span");em.textContent=h.emoji;em.setAttribute("aria-hidden","true");const n=document.createElement("span");n.textContent=h.name;const tag=document.createElement("small");tag.textContent=h.accepted?"✓ 就吃这个":new Date(h.time).toLocaleDateString("zh-CN",{month:"numeric",day:"numeric"});if(h.accepted)tag.className="confirmed";row.append(em,n,tag);list.append(row);});
+  }
+  $("#clear-history").addEventListener("click",()=>{history=[];storage.set("miaomiao.history.v1",history);renderHistory();toast("小幸运记录已清空");});
+  function celebrate() {if(window.matchMedia("(prefers-reduced-motion: reduce)").matches)return;const root=$("#confetti");root.replaceChildren();for(let i=0;i<35;i++){const p=document.createElement("i");p.style.left=randomInt(100)+"%";p.style.background=colors[randomInt(colors.length)];p.style.animationDelay=randomInt(500)+"ms";p.style.borderRadius=i%3===0?"50%":"2px";root.append(p);}setTimeout(()=>root.replaceChildren(),3000);}
+
+  function renderLibrary(query="") { const root=$("#menu-library");root.replaceChildren();let found=0;categories.filter(c=>c.foods).forEach(c=>{const foods=c.foods.filter(f=>f.includes(query.trim()));if(!foods.length)return;found+=foods.length;const section=document.createElement("section");section.className="menu-group";const title=document.createElement("h3");title.textContent=c.emoji+" "+c.name;const count=document.createElement("small");count.textContent=foods.length+" 道";title.append(count);const chips=document.createElement("div");chips.className="menu-chips";foods.forEach(food=>{const chip=document.createElement("span");chip.className="menu-chip";chip.textContent=food;chips.append(chip);});section.append(title,chips);root.append(section);});if(!found){const p=document.createElement("p");p.className="no-results";p.textContent="还没有这道菜，把它加进私藏菜单吧。";root.append(p);} }
+  function switchMenuTab(customTab){$("#builtin-panel").hidden=customTab;$("#custom-panel").hidden=!customTab;$("#builtin-tab").classList.toggle("active",!customTab);$("#custom-tab").classList.toggle("active",customTab);$("#builtin-tab").setAttribute("aria-pressed",String(!customTab));$("#custom-tab").setAttribute("aria-pressed",String(customTab));if(customTab){$("#custom-input").value=custom.join("\n");renderCustom();}}
+  $("#menu-open").addEventListener("click",()=>{renderLibrary($("#menu-search").value);openDialog($("#menu-dialog"));});
+  $("#builtin-tab").addEventListener("click",()=>switchMenuTab(false));$("#custom-tab").addEventListener("click",()=>switchMenuTab(true));
+  $("#menu-search").addEventListener("input",e=>renderLibrary(e.target.value));
+  function saveCustom() {
+    const names=$("#custom-input").value.split(/\r?\n/).map(s=>s.trim()).filter(Boolean);
+    if(names.length>60){$("#custom-feedback").textContent="最多保存 60 道，请精简后再保存。";return false;}
+    if(names.some(s=>s.length>16)){$("#custom-feedback").textContent="菜名最多 16 个字，缩短一点转盘才装得下呀。";return false;}
+    custom=[...new Set(names)];const saved=storage.set("miaomiao.custom.v1",custom);
+    $("#custom-input").value=custom.join("\n");$("#custom-feedback").textContent=saved?`已保存 ${custom.length} 道私藏美味，仅保存在当前设备。`:"当前浏览器不能保存，菜单本次仍可使用。";
+    const wasCustom=category==="custom";if(wasCustom&&!custom.length)category="all";renderCustom();renderCategories();if(wasCustom)refreshWheel();return true;
+  }
+  function renderCustom() {const root=$("#custom-chips");root.replaceChildren();custom.forEach(name=>{const chip=document.createElement("span");chip.className="menu-chip";chip.append(document.createTextNode(name));const remove=document.createElement("button");remove.textContent="×";remove.setAttribute("aria-label","删除"+name);remove.addEventListener("click",()=>{custom=custom.filter(n=>n!==name);storage.set("miaomiao.custom.v1",custom);$("#custom-input").value=custom.join("\n");renderCustom();if(category==="custom"){if(!custom.length)category="all";refreshWheel();}renderCategories();});chip.append(remove);root.append(chip);});}
+  $("#save-custom").addEventListener("click",saveCustom);
+  $("#use-custom").addEventListener("click",()=>{if(spinning){toast("等小转盘停下来再换菜单呀");return;}if(!saveCustom())return;if(!custom.length){$("#custom-feedback").textContent="先写下一道想吃的，再来转一转。";$("#custom-input").focus();return;}category="custom";renderCategories();refreshWheel();$("#menu-dialog").close();goTo("wheel");toast("这一次，只转你们的私藏美味");});
+
+  async function copyText(text, success) {if(!shareUrl){toast("本地体验版需要先发布，才能分享网页链接");return false;}let ok=false;try{await navigator.clipboard.writeText(text);ok=true;}catch{const ta=document.createElement("textarea");ta.value=text;ta.style.position="fixed";ta.style.opacity="0";const container=document.querySelector("dialog[open]")||document.body;container.append(ta);ta.focus();ta.select();ta.setSelectionRange(0,text.length);try{ok=document.execCommand("copy");}catch{}ta.remove();}toast(ok?success:"长按下方链接选择复制即可");return ok;}
+  const shareUrl=/^https?:$/.test(location.protocol) ? location.origin+location.pathname.replace(/index\.html$/i, "") : "";
+  $("#share-open").addEventListener("click",()=>{$("#share-url").value=shareUrl||"发布后会显示可分享的网页链接";openDialog($("#share-dialog"));});
+  $("#copy-link").addEventListener("click",()=>copyText(shareUrl,"链接已复制，快去微信发给苗苗吧 ♡"));
+  $("#share-url").addEventListener("click",e=>e.target.select());
+  $("#copy-result").addEventListener("click",()=>copyText(`自友，转盘替我决定啦！今天吃「${selected.name}」${selected.emoji}\n${shareUrl}`,"小幸运已复制，可以发给自友啦 ♡"));
+  $("#start-button").addEventListener("click",()=>goTo("category"));
+  $("#category-back").addEventListener("click",()=>goTo("welcome"));
+  $("#next-to-wheel").addEventListener("click",()=>goTo("wheel"));
+  $("#wheel-back").addEventListener("click",()=>{if(!spinning)goTo("category");});
+  $("#result-back").addEventListener("click",()=>goTo("category"));
+  $("#restart").addEventListener("click",()=>goTo("category"));
+  $("#history-open").addEventListener("click",()=>openDialog($("#history-dialog")));
+  renderCategories();refreshWheel();renderHistory();
+})();
+</script></body>
+</html>
